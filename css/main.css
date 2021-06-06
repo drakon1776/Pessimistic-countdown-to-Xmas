@@ -1,0 +1,131 @@
+/* FONTS & COLORS
+
+font-family: 'Montserrat', sans-serif; | weight: 400, 800
+font-family: 'Mountains of Christmas', cursive; | weight: 400, 700
+
+{"Red NCS":"c9062e",
+"Pastel Pink":"f2a9aa",
+"Satin Sheen Gold":"ba984b",
+"Maximum Green":"6b893c",
+"Deep Champagne":"fbd88f"}
+
+
+*/
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  background-image: url(../images/pinkBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.navTitle {
+  background-color: #c9062e;
+  color: #ffe0e0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 10px 10px rgba(100, 0, 0, 0.3);
+          box-shadow: 0 10px 10px rgba(100, 0, 0, 0.3);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navTitle h1 {
+  font-family: Mountains of Christmas;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin: 2em 0 2em 0;
+  padding: 0;
+}
+
+.navTitle span {
+  border-radius: 100vh;
+  border: 5px solid white;
+  background-position-x: left;
+  cursor: not-allowed;
+}
+
+.navTitle p {
+  font-family: Montserrat;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #ffe0e0;
+}
+
+main .container h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 0 10px rgba(155, 58, 58, 0.1);
+}
+
+main .container .counter {
+  display: inline-block;
+}
+
+main .container .counter h3 {
+  font-family: Mountains of Christmas;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(220, 150, 150, 0.6);
+  border-radius: 10px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  cursor: pointer;
+}
+
+main .container .counter p {
+  font-size: 1rem;
+}
+
+main footer {
+  text-align: center;
+  color: #7c0000;
+  font-family: Montserrat;
+  font-size: 0.6rem;
+}
+
+main footer a {
+  text-decoration: none;
+  color: #3f3f3f;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
