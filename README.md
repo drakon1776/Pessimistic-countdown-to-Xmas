@@ -1,2 +1,2 @@
 # Pessimistic-countdown-to-Xmas
- A simple pessimistic countdownt to Christmas, in seonds
+ A simple pessimistic countdown to Christmas, in seconds
