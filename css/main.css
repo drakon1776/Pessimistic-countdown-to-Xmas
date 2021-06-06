@@ -26,6 +26,12 @@ body {
       grid-template-rows: auto;
 }
 
+@media (max-width: 768px) {
+  body {
+    background-image: url(../images/pinkBG2.jpg);
+  }
+}
+
 .navTitle {
   background-color: #c9062e;
   color: #ffe0e0;

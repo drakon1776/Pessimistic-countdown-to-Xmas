@@ -23,7 +23,13 @@ body {
 
   display: grid;
   grid-template-rows: auto;
+
+  @media (max-width: 768px) {
+  background-image: url(../images/pinkBG2.jpg);
 }
+}
+
+
 
 .navTitle {
   background-color: #c9062e;
